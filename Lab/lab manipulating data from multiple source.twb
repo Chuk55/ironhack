@@ -1,0 +1,2171 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook original-version='18.1' source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='wribasin' inline='true' name='federated.10n94u81ldooqu1fz2xer1749nzt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wribasin' name='ogrdirect.1j2z8qj0rbo0di1cdp40w18u4hog'>
+            <connection class='ogrdirect' directory='C:/Users/Admin/ironhack/week5' filename='wribasin.shp' ogr-grid-shift-folder='C:\Program Files\Tableau\Tableau 2020.4\local\proj4' password='' port='0' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.1j2z8qj0rbo0di1cdp40w18u4hog' name='wribasin.shp' table='[wribasin.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='BASWC4_ID' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='integer' name='N' ordinal='2' />
+            <column datatype='string' name='NAME' ordinal='3' />
+            <column datatype='integer' name='CONT' ordinal='4' />
+            <column datatype='integer' name='NN' ordinal='5' />
+            <column datatype='integer' name='FISH_' ordinal='6' />
+            <column datatype='real' name='ACRES' ordinal='7' />
+            <column datatype='string' name='SOURCETHM' ordinal='8' />
+            <column datatype='integer' name='NO_COUNTRI' ordinal='9' />
+            <column datatype='string' name='Q3' ordinal='10' />
+            <column datatype='integer' name='CHECKED' ordinal='11' />
+            <column datatype='real' name='LAEA_HA' ordinal='12' />
+            <column datatype='real' name='LAEA_ACRES' ordinal='13' />
+            <column datatype='real' name='LAEA_PRMTR' ordinal='14' />
+            <column datatype='spatial' name='Geometry' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='ogrdirect.1j2z8qj0rbo0di1cdp40w18u4hog' name='wribasin.shp' table='[wribasin.shp]' type='table'>
+          <columns>
+            <column datatype='integer' name='BASWC4_ID' ordinal='0' />
+            <column datatype='integer' name='ID' ordinal='1' />
+            <column datatype='integer' name='N' ordinal='2' />
+            <column datatype='string' name='NAME' ordinal='3' />
+            <column datatype='integer' name='CONT' ordinal='4' />
+            <column datatype='integer' name='NN' ordinal='5' />
+            <column datatype='integer' name='FISH_' ordinal='6' />
+            <column datatype='real' name='ACRES' ordinal='7' />
+            <column datatype='string' name='SOURCETHM' ordinal='8' />
+            <column datatype='integer' name='NO_COUNTRI' ordinal='9' />
+            <column datatype='string' name='Q3' ordinal='10' />
+            <column datatype='integer' name='CHECKED' ordinal='11' />
+            <column datatype='real' name='LAEA_HA' ordinal='12' />
+            <column datatype='real' name='LAEA_ACRES' ordinal='13' />
+            <column datatype='real' name='LAEA_PRMTR' ordinal='14' />
+            <column datatype='spatial' name='Geometry' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>BASWC4_ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[BASWC4_ID]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>BASWC4_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[N]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>N</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CONT</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CONT]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>CONT</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NN</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[NN]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>NN</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FISH_</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[FISH_]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>FISH_</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ACRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ACRES]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>ACRES</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SOURCETHM</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SOURCETHM]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>SOURCETHM</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO_COUNTRI</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[NO_COUNTRI]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>NO_COUNTRI</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q3]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>Q3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CHECKED</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[CHECKED]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>CHECKED</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAEA_HA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LAEA_HA]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>LAEA_HA</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAEA_ACRES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LAEA_ACRES]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>LAEA_ACRES</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LAEA_PRMTR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LAEA_PRMTR]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>LAEA_PRMTR</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[wribasin.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Acres' datatype='real' name='[ACRES]' role='measure' type='quantitative' />
+      <column caption='Baswc4 Id' datatype='integer' name='[BASWC4_ID]' role='dimension' type='ordinal' />
+      <column caption='Checked' datatype='integer' name='[CHECKED]' role='measure' type='quantitative' />
+      <column caption='Cont' datatype='integer' name='[CONT]' role='measure' type='quantitative' />
+      <column caption='Fish' datatype='integer' name='[FISH_]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Laea Acres' datatype='real' name='[LAEA_ACRES]' role='measure' type='quantitative' />
+      <column caption='Laea Ha' datatype='real' name='[LAEA_HA]' role='measure' type='quantitative' />
+      <column caption='Laea Prmtr' datatype='real' name='[LAEA_PRMTR]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='No Countri' datatype='integer' name='[NO_COUNTRI]' role='measure' type='quantitative' />
+      <column caption='Sourcethm' datatype='string' name='[SOURCETHM]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='wribasin.shp' datatype='table' name='[__tableau_internal_object_id__].[wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='wribasin.shp' id='wribasin.shp_F9C946CA4A774D29B73C096023E2ECD8'>
+            <properties context=''>
+              <relation connection='ogrdirect.1j2z8qj0rbo0di1cdp40w18u4hog' name='wribasin.shp' table='[wribasin.shp]' type='table'>
+                <columns>
+                  <column datatype='integer' name='BASWC4_ID' ordinal='0' />
+                  <column datatype='integer' name='ID' ordinal='1' />
+                  <column datatype='integer' name='N' ordinal='2' />
+                  <column datatype='string' name='NAME' ordinal='3' />
+                  <column datatype='integer' name='CONT' ordinal='4' />
+                  <column datatype='integer' name='NN' ordinal='5' />
+                  <column datatype='integer' name='FISH_' ordinal='6' />
+                  <column datatype='real' name='ACRES' ordinal='7' />
+                  <column datatype='string' name='SOURCETHM' ordinal='8' />
+                  <column datatype='integer' name='NO_COUNTRI' ordinal='9' />
+                  <column datatype='string' name='Q3' ordinal='10' />
+                  <column datatype='integer' name='CHECKED' ordinal='11' />
+                  <column datatype='real' name='LAEA_HA' ordinal='12' />
+                  <column datatype='real' name='LAEA_ACRES' ordinal='13' />
+                  <column datatype='real' name='LAEA_PRMTR' ordinal='14' />
+                  <column datatype='spatial' name='Geometry' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='carbon-emissions-borough' inline='true' name='federated.0sq0lv41badwsj0zp39xx1n32fde' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='carbon-emissions-borough' name='excel-direct.1ni2mx601pi4uu1a2bu0i0azf720'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Admin/ironhack/week5/data_6.01_activities/files_for_activities/carbon-emissions-borough.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ni2mx601pi4uu1a2bu0i0azf720' name='Metadata' table='[Metadata$]' type='table'>
+          <columns gridOrigin='A1:B30:no:A1:B30:0' header='yes' outcome='2'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Carbon Dioxide Emissions' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ni2mx601pi4uu1a2bu0i0azf720' name='Metadata' table='[Metadata$]' type='table'>
+          <columns gridOrigin='A1:B30:no:A1:B30:0' header='yes' outcome='2'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Carbon Dioxide Emissions' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Metadata]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B30:no:A1:B30:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Metadata]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata_95C299DCD36E40E0AAF2B4AC3DB6E4E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbon Dioxide Emissions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Carbon Dioxide Emissions]</local-name>
+            <parent-name>[Metadata]</parent-name>
+            <remote-alias>Carbon Dioxide Emissions</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Metadata_95C299DCD36E40E0AAF2B4AC3DB6E4E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Metadata' datatype='table' name='[__tableau_internal_object_id__].[Metadata_95C299DCD36E40E0AAF2B4AC3DB6E4E6]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Metadata' id='Metadata_95C299DCD36E40E0AAF2B4AC3DB6E4E6'>
+            <properties context=''>
+              <relation connection='excel-direct.1ni2mx601pi4uu1a2bu0i0azf720' name='Metadata' table='[Metadata$]' type='table'>
+                <columns gridOrigin='A1:B30:no:A1:B30:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Carbon Dioxide Emissions' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='London_Borough_Excluding_MHW' inline='true' name='federated.047iphb08w1gnv11pjmw21j66pec' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='London_Borough_Excluding_MHW' name='ogrdirect.07m6ncm0u0nzem0zpcx4a0i4nocf'>
+            <connection class='ogrdirect' directory='C:/Users/Admin/ironhack/week5/data_6.01_activities/files_for_activities/London_Boroughs_Spatial_File' filename='London_Borough_Excluding_MHW.shp' ogr-grid-shift-folder='C:\Program Files\Tableau\Tableau 2020.4\local\proj4' password='' port='0' server='' tablename='' />
+          </named-connection>
+          <named-connection caption='carbon-emissions-borough' name='excel-direct.1vb73671jpobjb17nxzbp1qei04d'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/Admin/ironhack/week5/data_6.01_activities/files_for_activities/carbon-emissions-borough.xls' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='ogrdirect.07m6ncm0u0nzem0zpcx4a0i4nocf' name='London_Borough_Excluding_MHW.shp' table='[London_Borough_Excluding_MHW.shp]' type='table'>
+          <columns>
+            <column datatype='string' name='NAME' ordinal='0' />
+            <column datatype='string' name='GSS_CODE' ordinal='1' />
+            <column datatype='real' name='HECTARES' ordinal='2' />
+            <column datatype='real' name='NONLD_AREA' ordinal='3' />
+            <column datatype='string' name='ONS_INNER' ordinal='4' />
+            <column datatype='string' name='SUB_2009' ordinal='5' />
+            <column datatype='string' name='SUB_2006' ordinal='6' />
+            <column datatype='spatial' name='Geometry' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='ogrdirect.07m6ncm0u0nzem0zpcx4a0i4nocf' name='London_Borough_Excluding_MHW.shp' table='[London_Borough_Excluding_MHW.shp]' type='table'>
+            <columns>
+              <column datatype='string' name='NAME' ordinal='0' />
+              <column datatype='string' name='GSS_CODE' ordinal='1' />
+              <column datatype='real' name='HECTARES' ordinal='2' />
+              <column datatype='real' name='NONLD_AREA' ordinal='3' />
+              <column datatype='string' name='ONS_INNER' ordinal='4' />
+              <column datatype='string' name='SUB_2009' ordinal='5' />
+              <column datatype='string' name='SUB_2006' ordinal='6' />
+              <column datatype='spatial' name='Geometry' ordinal='7' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1vb73671jpobjb17nxzbp1qei04d' name='TOTAL' table='[TOTAL$]' type='table'>
+            <columns gridOrigin='A1:BT54:no:A1:BT54:2' lost='0' outcome='1' processed='3333'>
+              <column datatype='string' name='Code' ordinal='0' />
+              <column datatype='string' name='Name' ordinal='1' />
+              <column datatype='real' name='Industry and Commercial 2005' ordinal='2' />
+              <column datatype='real' name='Industry and Commercial 2006' ordinal='3' />
+              <column datatype='real' name='Industry and Commercial 2007' ordinal='4' />
+              <column datatype='real' name='Industry and Commercial 2008' ordinal='5' />
+              <column datatype='real' name='Industry and Commercial 2009' ordinal='6' />
+              <column datatype='real' name='Industry and Commercial 2010' ordinal='7' />
+              <column datatype='real' name='Industry and Commercial 2011' ordinal='8' />
+              <column datatype='real' name='Industry and Commercial 2012' ordinal='9' />
+              <column datatype='real' name='Industry and Commercial 2013' ordinal='10' />
+              <column datatype='real' name='Industry and Commercial 2014' ordinal='11' />
+              <column datatype='real' name='Domestic 2005' ordinal='12' />
+              <column datatype='real' name='Domestic 2006' ordinal='13' />
+              <column datatype='real' name='Domestic 2007' ordinal='14' />
+              <column datatype='real' name='Domestic 2008' ordinal='15' />
+              <column datatype='real' name='Domestic 2009' ordinal='16' />
+              <column datatype='real' name='Domestic 2010' ordinal='17' />
+              <column datatype='real' name='Domestic 2011' ordinal='18' />
+              <column datatype='real' name='Domestic 2012' ordinal='19' />
+              <column datatype='real' name='Domestic 2013' ordinal='20' />
+              <column datatype='real' name='Domestic 2014' ordinal='21' />
+              <column datatype='real' name='Transport 2005' ordinal='22' />
+              <column datatype='real' name='Transport 2006' ordinal='23' />
+              <column datatype='real' name='Transport 2007' ordinal='24' />
+              <column datatype='real' name='Transport 2008' ordinal='25' />
+              <column datatype='real' name='Transport 2009' ordinal='26' />
+              <column datatype='real' name='Transport 2010' ordinal='27' />
+              <column datatype='real' name='Transport 2011' ordinal='28' />
+              <column datatype='real' name='Transport 2012' ordinal='29' />
+              <column datatype='real' name='Transport 2013' ordinal='30' />
+              <column datatype='real' name='Transport 2014' ordinal='31' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2005' ordinal='32' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2006' ordinal='33' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2007' ordinal='34' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2008' ordinal='35' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2009' ordinal='36' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2010' ordinal='37' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2011' ordinal='38' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2012' ordinal='39' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2013' ordinal='40' />
+              <column datatype='real' name='N. LULUCF Net Emissions 2014' ordinal='41' />
+              <column datatype='real' name='Grand Total 2005' ordinal='42' />
+              <column datatype='real' name='Grand Total 2006' ordinal='43' />
+              <column datatype='real' name='Grand Total 2007' ordinal='44' />
+              <column datatype='real' name='Grand Total 2008' ordinal='45' />
+              <column datatype='real' name='Grand Total 2009' ordinal='46' />
+              <column datatype='real' name='Grand Total 2010' ordinal='47' />
+              <column datatype='real' name='Grand Total 2011' ordinal='48' />
+              <column datatype='real' name='Grand Total 2012' ordinal='49' />
+              <column datatype='real' name='Grand Total 2013' ordinal='50' />
+              <column datatype='real' name='Grand Total 2014' ordinal='51' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2005' ordinal='52' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2006' ordinal='53' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2007' ordinal='54' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2008' ordinal='55' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2009' ordinal='56' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2010' ordinal='57' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2011' ordinal='58' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2012' ordinal='59' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2013' ordinal='60' />
+              <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2014' ordinal='61' />
+              <column datatype='real' name='Per Capita Emissions (t) 2005' ordinal='62' />
+              <column datatype='real' name='Per Capita Emissions (t) 2006' ordinal='63' />
+              <column datatype='real' name='Per Capita Emissions (t) 2007' ordinal='64' />
+              <column datatype='real' name='Per Capita Emissions (t) 2008' ordinal='65' />
+              <column datatype='real' name='Per Capita Emissions (t) 2009' ordinal='66' />
+              <column datatype='real' name='Per Capita Emissions (t) 2010' ordinal='67' />
+              <column datatype='real' name='Per Capita Emissions (t) 2011' ordinal='68' />
+              <column datatype='real' name='Per Capita Emissions (t) 2012' ordinal='69' />
+              <column datatype='real' name='Per Capita Emissions (t) 2013' ordinal='70' />
+              <column datatype='real' name='Per Capita Emissions (t) 2014' ordinal='71' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BT54:no:A1:BT54:2&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3333</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NAME</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[NAME]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>NAME</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GSS_CODE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GSS_CODE]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>GSS_CODE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HECTARES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HECTARES]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>HECTARES</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NONLD_AREA</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NONLD_AREA]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>NONLD_AREA</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ONS_INNER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ONS_INNER]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>ONS_INNER</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUB_2009</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUB_2009]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>SUB_2009</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUB_2006</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUB_2006]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>SUB_2006</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[London_Borough_Excluding_MHW.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Code]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Code</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2005</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2006</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2007</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2008</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2009</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2010</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2011</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2012</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2013</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry and Commercial 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry and Commercial 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Industry and Commercial 2014</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2005</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2006</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2007</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2008</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2009</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2010</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2011</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2012</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2013</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Domestic 2014</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2005</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2006</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2007</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2008</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2009</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2010</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2011</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2012</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2013</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transport 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Transport 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Transport 2014</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2005</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2006</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2007</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2008</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2009</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2010</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2011</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2012</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2013</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N. LULUCF Net Emissions 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[N. LULUCF Net Emissions 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>N. LULUCF Net Emissions 2014</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2005</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2006</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2007</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2008</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2009</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2010</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2011</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2012</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2013</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grand Total 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grand Total 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Grand Total 2014</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2005</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2006</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2007</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2008</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2009</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2010</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2011</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2012</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2013</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population (&apos;000s, mid-year estimate) 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population (&apos;000s, mid-year estimate) 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Population (&apos;000s, mid-year estimate) 2014</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2005</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2005]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2005</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2006</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2006]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2006</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2007</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2007]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2007</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2008</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2008]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2008</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2009</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2009]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2009</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2010</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2010]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2010</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2011</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2011]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2011</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2012</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2012]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2012</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2013]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2013</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per Capita Emissions (t) 2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Per Capita Emissions (t) 2014]</local-name>
+            <parent-name>[TOTAL]</parent-name>
+            <remote-alias>Per Capita Emissions (t) 2014</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TOTAL_67F4716D143A4145BF275920DFC54033]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Gss Code' datatype='string' name='[GSS_CODE]' role='dimension' type='nominal' />
+      <column caption='Hectares' datatype='real' name='[HECTARES]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[NAME]' role='dimension' type='nominal' />
+      <column caption='Nonld Area' datatype='real' name='[NONLD_AREA]' role='measure' type='quantitative' />
+      <column caption='Name1' datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column caption='Ons Inner' datatype='string' name='[ONS_INNER]' role='dimension' type='nominal' />
+      <column caption='Sub 2006' datatype='string' name='[SUB_2006]' role='dimension' type='nominal' />
+      <column caption='Sub 2009' datatype='string' name='[SUB_2009]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='London_Borough_Excluding_MHW.shp' datatype='table' name='[__tableau_internal_object_id__].[London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='TOTAL' datatype='table' name='[__tableau_internal_object_id__].[TOTAL_67F4716D143A4145BF275920DFC54033]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='London_Borough_Excluding_MHW.shp' id='London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC'>
+            <properties context=''>
+              <relation connection='ogrdirect.07m6ncm0u0nzem0zpcx4a0i4nocf' name='London_Borough_Excluding_MHW.shp' table='[London_Borough_Excluding_MHW.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='NAME' ordinal='0' />
+                  <column datatype='string' name='GSS_CODE' ordinal='1' />
+                  <column datatype='real' name='HECTARES' ordinal='2' />
+                  <column datatype='real' name='NONLD_AREA' ordinal='3' />
+                  <column datatype='string' name='ONS_INNER' ordinal='4' />
+                  <column datatype='string' name='SUB_2009' ordinal='5' />
+                  <column datatype='string' name='SUB_2006' ordinal='6' />
+                  <column datatype='spatial' name='Geometry' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='TOTAL' id='TOTAL_67F4716D143A4145BF275920DFC54033'>
+            <properties context=''>
+              <relation connection='excel-direct.1vb73671jpobjb17nxzbp1qei04d' name='TOTAL' table='[TOTAL$]' type='table'>
+                <columns gridOrigin='A1:BT54:no:A1:BT54:2' lost='0' outcome='1' processed='3333'>
+                  <column datatype='string' name='Code' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='real' name='Industry and Commercial 2005' ordinal='2' />
+                  <column datatype='real' name='Industry and Commercial 2006' ordinal='3' />
+                  <column datatype='real' name='Industry and Commercial 2007' ordinal='4' />
+                  <column datatype='real' name='Industry and Commercial 2008' ordinal='5' />
+                  <column datatype='real' name='Industry and Commercial 2009' ordinal='6' />
+                  <column datatype='real' name='Industry and Commercial 2010' ordinal='7' />
+                  <column datatype='real' name='Industry and Commercial 2011' ordinal='8' />
+                  <column datatype='real' name='Industry and Commercial 2012' ordinal='9' />
+                  <column datatype='real' name='Industry and Commercial 2013' ordinal='10' />
+                  <column datatype='real' name='Industry and Commercial 2014' ordinal='11' />
+                  <column datatype='real' name='Domestic 2005' ordinal='12' />
+                  <column datatype='real' name='Domestic 2006' ordinal='13' />
+                  <column datatype='real' name='Domestic 2007' ordinal='14' />
+                  <column datatype='real' name='Domestic 2008' ordinal='15' />
+                  <column datatype='real' name='Domestic 2009' ordinal='16' />
+                  <column datatype='real' name='Domestic 2010' ordinal='17' />
+                  <column datatype='real' name='Domestic 2011' ordinal='18' />
+                  <column datatype='real' name='Domestic 2012' ordinal='19' />
+                  <column datatype='real' name='Domestic 2013' ordinal='20' />
+                  <column datatype='real' name='Domestic 2014' ordinal='21' />
+                  <column datatype='real' name='Transport 2005' ordinal='22' />
+                  <column datatype='real' name='Transport 2006' ordinal='23' />
+                  <column datatype='real' name='Transport 2007' ordinal='24' />
+                  <column datatype='real' name='Transport 2008' ordinal='25' />
+                  <column datatype='real' name='Transport 2009' ordinal='26' />
+                  <column datatype='real' name='Transport 2010' ordinal='27' />
+                  <column datatype='real' name='Transport 2011' ordinal='28' />
+                  <column datatype='real' name='Transport 2012' ordinal='29' />
+                  <column datatype='real' name='Transport 2013' ordinal='30' />
+                  <column datatype='real' name='Transport 2014' ordinal='31' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2005' ordinal='32' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2006' ordinal='33' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2007' ordinal='34' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2008' ordinal='35' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2009' ordinal='36' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2010' ordinal='37' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2011' ordinal='38' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2012' ordinal='39' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2013' ordinal='40' />
+                  <column datatype='real' name='N. LULUCF Net Emissions 2014' ordinal='41' />
+                  <column datatype='real' name='Grand Total 2005' ordinal='42' />
+                  <column datatype='real' name='Grand Total 2006' ordinal='43' />
+                  <column datatype='real' name='Grand Total 2007' ordinal='44' />
+                  <column datatype='real' name='Grand Total 2008' ordinal='45' />
+                  <column datatype='real' name='Grand Total 2009' ordinal='46' />
+                  <column datatype='real' name='Grand Total 2010' ordinal='47' />
+                  <column datatype='real' name='Grand Total 2011' ordinal='48' />
+                  <column datatype='real' name='Grand Total 2012' ordinal='49' />
+                  <column datatype='real' name='Grand Total 2013' ordinal='50' />
+                  <column datatype='real' name='Grand Total 2014' ordinal='51' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2005' ordinal='52' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2006' ordinal='53' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2007' ordinal='54' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2008' ordinal='55' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2009' ordinal='56' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2010' ordinal='57' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2011' ordinal='58' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2012' ordinal='59' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2013' ordinal='60' />
+                  <column datatype='real' name='Population (&apos;000s, mid-year estimate) 2014' ordinal='61' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2005' ordinal='62' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2006' ordinal='63' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2007' ordinal='64' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2008' ordinal='65' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2009' ordinal='66' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2010' ordinal='67' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2011' ordinal='68' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2012' ordinal='69' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2013' ordinal='70' />
+                  <column datatype='real' name='Per Capita Emissions (t) 2014' ordinal='71' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[GSS_CODE]' />
+              <expression op='[Code]' />
+            </expression>
+            <first-end-point object-id='London_Borough_Excluding_MHW.shp_2BD7E0E74E6846C29E203EF553724BAC' />
+            <second-end-point object-id='TOTAL_67F4716D143A4145BF275920DFC54033' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wribasin' name='federated.10n94u81ldooqu1fz2xer1749nzt' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.10n94u81ldooqu1fz2xer1749nzt' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.10n94u81ldooqu1fz2xer1749nzt].[Longitude (generated)]' field-type='quantitative' max='17884633.24654299' min='-34331462.383562028' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.10n94u81ldooqu1fz2xer1749nzt].[Latitude (generated)]' field-type='quantitative' max='16094262.388336834' min='-11277512.583214572' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.10n94u81ldooqu1fz2xer1749nzt].[Latitude (generated)]</rows>
+        <cols>[federated.10n94u81ldooqu1fz2xer1749nzt].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{52E74BE6-32A5-43AE-BD02-E2A6EB67DF8B}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{753CA114-D6D8-44F0-B2DA-FE5D24597EDE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
